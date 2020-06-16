@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B4223FC5248B13800041BD9A /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = B4223FC4248B13800041BD9A /* SwiftProcessing */; };
+		B4C409EB248FB0ED00BC8FA6 /* SwiftProcessing in Frameworks */ = {isa = PBXBuildFile; productRef = B4C409EA248FB0ED00BC8FA6 /* SwiftProcessing */; };
+		B4C409ED248FB16500BC8FA6 /* ExampleSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C409EC248FB16500BC8FA6 /* ExampleSketch.swift */; };
 		B4DE996D2485A21700EF5754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE996C2485A21700EF5754 /* AppDelegate.swift */; };
 		B4DE996F2485A21700EF5754 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE996E2485A21700EF5754 /* SceneDelegate.swift */; };
 		B4DE99712485A21700EF5754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE99702485A21700EF5754 /* ViewController.swift */; };
@@ -16,8 +17,6 @@
 		B4DE99792485A21A00EF5754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DE99772485A21A00EF5754 /* LaunchScreen.storyboard */; };
 		B4DE99842485A21A00EF5754 /* SwiftProcessingTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE99832485A21A00EF5754 /* SwiftProcessingTestingTests.swift */; };
 		B4DE998F2485A21A00EF5754 /* SwiftProcessingTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE998E2485A21A00EF5754 /* SwiftProcessingTestingUITests.swift */; };
-		B4DE999E2485A36F00EF5754 /* ExampleSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE999D2485A36F00EF5754 /* ExampleSketch.swift */; };
-		B4DE99A32485AA0700EF5754 /* FootGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4DE99A22485AA0700EF5754 /* FootGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4C409E9248FB0D700BC8FA6 /* SwiftProcessing */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftProcessing; path = ../../SwiftProcessing; sourceTree = "<group>"; };
+		B4C409EC248FB16500BC8FA6 /* ExampleSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSketch.swift; sourceTree = "<group>"; };
 		B4DE99692485A21700EF5754 /* SwiftProcessingTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProcessingTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DE996C2485A21700EF5754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DE996E2485A21700EF5754 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +54,6 @@
 		B4DE998E2485A21A00EF5754 /* SwiftProcessingTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProcessingTestingUITests.swift; sourceTree = "<group>"; };
 		B4DE99902485A21A00EF5754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DE999C2485A29900EF5754 /* SwiftProcessing */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftProcessing; path = ../../SwiftProcessing; sourceTree = "<group>"; };
-		B4DE999D2485A36F00EF5754 /* ExampleSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSketch.swift; sourceTree = "<group>"; };
-		B4DE99A22485AA0700EF5754 /* FootGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = FootGif.gif; path = ../../../../../Downloads/FootGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4223FC5248B13800041BD9A /* SwiftProcessing in Frameworks */,
+				B4C409EB248FB0ED00BC8FA6 /* SwiftProcessing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B4DE999C2485A29900EF5754 /* SwiftProcessing */,
+				B4C409E9248FB0D700BC8FA6 /* SwiftProcessing */,
 				B4DE996B2485A21700EF5754 /* SwiftProcessingTesting */,
 				B4DE99822485A21A00EF5754 /* SwiftProcessingTestingTests */,
 				B4DE998D2485A21A00EF5754 /* SwiftProcessingTestingUITests */,
@@ -115,8 +115,7 @@
 				B4DE99752485A21A00EF5754 /* Assets.xcassets */,
 				B4DE99772485A21A00EF5754 /* LaunchScreen.storyboard */,
 				B4DE997A2485A21A00EF5754 /* Info.plist */,
-				B4DE999D2485A36F00EF5754 /* ExampleSketch.swift */,
-				B4DE99A22485AA0700EF5754 /* FootGif.gif */,
+				B4C409EC248FB16500BC8FA6 /* ExampleSketch.swift */,
 			);
 			path = SwiftProcessingTesting;
 			sourceTree = "<group>";
@@ -163,7 +162,7 @@
 			);
 			name = SwiftProcessingTesting;
 			packageProductDependencies = (
-				B4223FC4248B13800041BD9A /* SwiftProcessing */,
+				B4C409EA248FB0ED00BC8FA6 /* SwiftProcessing */,
 			);
 			productName = SwiftProcessingTesting;
 			productReference = B4DE99692485A21700EF5754 /* SwiftProcessingTesting.app */;
@@ -256,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DE99792485A21A00EF5754 /* LaunchScreen.storyboard in Resources */,
-				B4DE99A32485AA0700EF5754 /* FootGif.gif in Resources */,
 				B4DE99762485A21A00EF5754 /* Assets.xcassets in Resources */,
 				B4DE99742485A21700EF5754 /* Main.storyboard in Resources */,
 			);
@@ -283,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DE999E2485A36F00EF5754 /* ExampleSketch.swift in Sources */,
+				B4C409ED248FB16500BC8FA6 /* ExampleSketch.swift in Sources */,
 				B4DE99712485A21700EF5754 /* ViewController.swift in Sources */,
 				B4DE996D2485A21700EF5754 /* AppDelegate.swift in Sources */,
 				B4DE996F2485A21700EF5754 /* SceneDelegate.swift in Sources */,
@@ -461,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95J2Y4V3N7;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/juanlee/**";
 				INFOPLIST_FILE = SwiftProcessingTesting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -617,7 +616,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B4223FC4248B13800041BD9A /* SwiftProcessing */ = {
+		B4C409EA248FB0ED00BC8FA6 /* SwiftProcessing */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftProcessing;
 		};
